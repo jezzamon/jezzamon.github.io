@@ -1,0 +1,70 @@
+body {
+/*background-color:white;*/
+  background: linear-gradient(270deg, #b993d6, #8ca6db);
+}
+p {
+  color: #fff;
+}
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  color: #fff;
+}
+h2 {
+  color: #fff;
+  font-size: 3.5rem;
+}
+.masthead {
+  min-height: 700px;
+  padding: 1em 0em;
+  background: linear-gradient(270deg, #b993d6, #8ca6db);
+}
+.masthead h1.ui.header {
+  margin-top: 0;
+}
+.projectsmasthead {
+  background: linear-gradient(270deg, #b993d6, #8ca6db);
+/*background: linear-gradient(270deg, #24C6DC,#514A9D)*/
+  min-height: 700px;
+  padding: 1em 0em;
+}
+.projectsmasthead .ui.grid.container {
+  margin-top: 6em;
+}
+h1.ui.header {
+  margin-top: 1em;
+  margin-bottom: 0em;
+  font-size: 6.5em;
+  font-weight: normal;
+  font-family: 'Audiowide', cursive;
+  color: rgba(255,255,255,0.8);
+}
+@media screen and (max-width: 375px) {
+  h1.ui.header {
+    font-size: 3.5em;
+  }
+}
+.ui.menu {
+  font-size: 1.5em;
+}
+@media screen and (max-width: 375px) {
+  .ui.menu {
+    font-size: 0.75em;
+  }
+}
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+button.ui.large.basic.button,
+.rotate-1 {
+  color: rgba(255,255,255,0.8);
+}
+.ui.three.cards {
+  margin-top: 2em;
+}
+.blurring.dimmable > .dimmer {
+  background: linear-gradient(270deg, rgba(36,198,220,0.52), rgba(81,74,157,0.68));
+  padding: 0 1em;
+}
